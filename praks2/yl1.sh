@@ -2,8 +2,7 @@
 
 #skript tervitab kasutajat tema nime järgi
 
-echo Tere,
-
+echo -n Tere, 
 varname=$(whoami)
 echo -n ${varname^}
 echo !
