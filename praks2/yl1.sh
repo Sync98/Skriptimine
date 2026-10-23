@@ -4,6 +4,7 @@
 
 echo Tere,
 
-read varname
+varname=$(whoami)
+echo -n ${varname^}
+echo !
 
-echo Tere, $varname!
